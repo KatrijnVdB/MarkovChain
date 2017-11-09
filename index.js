@@ -1,5 +1,5 @@
-import { readFileSync } from 'fs';
-import path from 'path';
+var readFileSync = require('fs').default;
+var path  = requir('path').default;
 var Text = require ('markov-chains-text').default;
 var fakeText = new Text;
  
